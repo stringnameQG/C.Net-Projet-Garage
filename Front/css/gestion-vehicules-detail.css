@@ -1,0 +1,52 @@
+.formulaire {
+  width: 40vw;
+  max-width: 520px;
+  height: fit-content;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #b441d126;
+}
+.formulaire-div-h2 {
+  padding: 4px;
+  text-align: center;
+}
+.formulaire-h2 {
+  margin: 4px;
+}
+.formulaire-div {
+  padding: 8px 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+input, textarea {
+  width: 65%;
+  border: 1px solid white;
+  color: white;
+  background-color: #ffffff00;
+  border-radius: 5px;
+  font-size: 1rem;
+  font: 80% sans-serif;
+}
+.formulaire-label-demande {
+  align-self: start;
+}
+.formulaire-input-demande {
+  height: 200px;
+  text-justify: start;
+  text-align: start;
+  resize: none;
+}
+
+@media (orientation: portrait) {
+  .formulaire {
+    width: 90vw;
+    height: 60vh;
+    max-width: none;
+  }
+  .formulaire-input-demande {
+    height: 400px;
+  }
+}

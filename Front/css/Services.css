@@ -1,0 +1,17 @@
+.main-sevices {
+
+}
+.services-title {
+  margin: 1.4rem 0;
+  width: fit-content;
+  align-self: center;
+}
+.services-description {
+  padding: 5px;
+}
+.services-description {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+

@@ -1,0 +1,25 @@
+main {
+  flex-direction: column;
+  align-items: center;
+  gap: 3vh;
+}
+article {
+  align-items: center;
+}
+.button {
+  padding: 0.5vw 1vw;
+  width: fit-content;
+  text-align: center;
+  text-decoration: none;
+  background: linear-gradient(#942424, #B13434);
+  color: white;
+}
+.button:hover {
+  background: linear-gradient(#942424, #b41919);
+}
+
+@media (orientation: portrait) {
+  .formulaire {
+    width: 90vw;
+  }
+}

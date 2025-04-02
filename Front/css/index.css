@@ -1,0 +1,48 @@
+article {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 5px;
+}
+.promotion-accueil {
+    text-align: center;
+}
+.avis {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 3vh;
+}
+.avis-div {
+    height: fit-content;
+}
+.avis-name, .avis-note, .avis-commentaires {
+    width: fit-content;
+    height: fit-content;
+}
+.avis-name {
+    grid-area: name;
+}
+.avis-note {
+    grid-area: note;
+}
+.avis-commentaires {
+    grid-area: commentaires;
+}
+.avis-div {
+    display: grid;
+    grid-template-areas:
+    "name note  ."
+    "commentaires commentaires commentaires";
+    grid-template-rows: min-content;
+    grid-template-columns: min-content;
+    gap: 1vw;
+}
+
+@media (orientation: portrait) {
+    article {
+        width: 95vw;
+        height: fit-content;
+    }
+}

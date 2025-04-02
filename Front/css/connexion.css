@@ -1,0 +1,38 @@
+.formulaire {
+  width: 40vw;
+  max-width: 520px;
+  height: fit-content;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #b441d126;
+}
+.formulaire-div-h2 {
+  padding: 4px;
+  text-align: center;
+}
+.formulaire-h2 {
+  margin: 4px;
+}
+.formulaire-div {
+  padding: 8px 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+input {
+  width: 65%;
+  border: 1px solid white;
+  color: white;
+  background-color: #ffffff00;
+  border-radius: 5px;
+  font-size: 1rem;
+  font: 80% sans-serif;
+}
+
+@media (orientation: portrait) {
+  .formulaire {
+    width: 90vw;
+  }
+}

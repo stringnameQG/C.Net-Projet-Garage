@@ -1,0 +1,107 @@
+main {
+  margin: 0;
+  flex-direction: column;
+  align-items: center;
+}
+.filtres {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1vh;
+  color: #000000
+}
+.filtres-title {
+  width: 70px;
+}
+input {
+  font-size: 1rem;
+}
+.filtres-prix, .filtres-annes  {
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(#8720d5, #59168C);
+  border-radius: 10px;
+}
+article {
+  width: 31.4vw;
+} 
+.vehicules {
+  padding: 0 1vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1vw;
+}
+.vehicules-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+.vehicules-header {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px 5px 0 0;
+}
+.vehicules-header-title {
+  margin: 0;
+  width: fit-content;
+  color: black;
+  font-size: 1.2rem;
+}
+.vehicules-header-div {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 6px;
+}
+.vehicules-header-place {
+  width: fit-content;
+  color: #000000
+}
+.vehicules-header-icon {
+  width: 1.8rem;
+  height: 1.8rem;
+  background-color: #AAAAAA;
+  border-radius: 20px;
+  color: black;
+}
+.vehicules-img {
+  background-size: cover;
+}
+.vehicules-footer {
+  padding: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: #000000;
+  border-radius: 0 0 5px 5px;
+}
+.vehicules-button {
+  width: 40px;
+  height: 40px;
+}
+
+@media (orientation: portrait) {
+  main {
+    gap: 1vh;
+  }
+  article {
+    width: 98vw;
+  } 
+  .vehicules {
+    padding: 0 1vw;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1vw;
+  }
+}

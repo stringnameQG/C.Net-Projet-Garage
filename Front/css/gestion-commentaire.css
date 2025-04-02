@@ -1,0 +1,69 @@
+main {
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+}
+table {
+    width: 70vw;
+    color: white;
+    border-spacing: 1vh;
+}
+.ajouter {
+    padding: 0.5vw 1vw;
+    border-radius: 5px;
+    background: linear-gradient(#3b46db, #283094);
+}
+.ajouter:hover {
+    background: linear-gradient(#343dc2, #202679);
+}
+.div-choice {
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+.delete, .validate-true, .validate-false {
+    padding: 0.5vw 1vw;
+    border-radius: 5px;
+}
+.delete {
+    background-color: black;
+}
+.delete:hover {
+    background-color: rgb(49, 49, 49);
+}
+.validate-true {
+    background: linear-gradient(#2A9636, #34B142);
+}
+.validate-true:hover {
+    background: linear-gradient(#389c43, #3fb44d);
+}
+.validate-false {
+    background: linear-gradient(#B4B400, #CBCB01);
+}
+.validate-false:hover {
+    background: linear-gradient(#b9b92d, #cece3a);
+}
+.div-number-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2vw;
+}
+.number-page, .number-page-active {
+    text-decoration: none;
+    color: white;
+}
+.number-page:hover {
+    color: rgb(146, 146, 146);
+}
+.number-page-active {
+    color: #942424;
+}
+@media (orientation: portrait) {
+    table {
+        width: 95vw;
+    }
+}
